@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body {
+            background-color: blueviolet;
+        }
+
+        .proj1, .proj2, .proj3, .proj4 {
+            border: 2px solid black;
+        }
+        .proj1 {
+            background-color: brown;
+        }
+        .proj2 {
+            background-color: rgb(42, 67, 165);
+        }
+        .proj3 {
+            background-color: rgb(42, 165, 77);
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .proj4 {
+            background-color: rgb(110, 165, 42);
+        }
+        
+       .grid-container {
+                display: grid;
+                height: 500px;
+                grid-template-columns: repeat(4 25%);
+                grid-template-rows: 5rem minmax(10px, 200px) 100px;
+               
+        }
+    </style>
+</head>
+<body>
+    <h1>My Projects</h1>
+    <div class="grid-container">
+        <div class="proj1">Project One</div>
+        <div class="proj2">Project Two</div>
+        <div class="proj3">Project Three</div>
+        <div class="proj4">Project Four</div>
+    </div>
+</body>
+</html>

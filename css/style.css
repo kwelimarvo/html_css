@@ -1,0 +1,120 @@
+body {
+    margin: 9px 9px 9px;
+    padding: 0;
+    background: darkorange url("../images/neon.jpg");
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: darkgoldenrod;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: lemonchiffon;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-menu li {
+    min-width: 8em;
+    float: left;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    text-align: center;
+}   
+
+.nav-menu li a:link,
+.nav-menu li a:visited {
+    background-color: aqua;
+    display: block;
+    padding: 0.4em;
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 0 0 0.2em 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 80px;
+    box-shadow: 4.5px 4.5px 5px 5px rgba(43, 43, 43, 0.7);
+}
+
+.nav-menu li a:hover {
+    background-color: slateblue;
+    -webkit-transform: scale(1.12, 1.12);
+    -ms-transform: scale(1.12, 1.12);
+    transform: scale(1.12, 1.12);    
+    color: wheat;
+}
+
+.nav-menu a {
+    display: block;
+    width: 85px;
+}
+
+
+.clear {
+    clear: both;
+}
+
+#welcomeDiv {
+    background-color: #00ff00;
+    float: left;
+    width: 70%;
+    margin-right: 20px;
+    padding: 15px;
+    margin-left: 10px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#newsLetter {
+    background-color: aqua;
+    float: left;
+    padding: 15px;
+    width: 20%;
+    margin-bottom: 50px;
+}
+
+#leftDiv {
+    background-color: azure;
+    float: left;
+    width: 40%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid;
+    margin: 20px;
+}
+
+#rightDiv {
+    background-color: azure;
+    float: right;
+    width: 40%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid;
+    margin: 20px;
+}
+
+#footer {
+    height: 40px;
+    background-color: brown;
+    color: aqua;
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 15px;
+    box-shadow: 4.5px 4.5px 5px 5px rgba(43, 43, 43, 0.7);
+
+}
+
+footer a {
+    text-decoration: none;
+    color: chartreuse;
+}
